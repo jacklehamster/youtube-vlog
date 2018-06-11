@@ -49,4 +49,5 @@ function getVideos($service, $playlist_id) {
 
 $videos = getVideos($service, $playlist_id);
 
-//echo(json_encode(getVideos($service, $playlist_id), JSON_PRETTY_PRINT));
+header('Content-Type: application/json');
+echo json_encode($videos, JSON_PRETTY_PRINT);
