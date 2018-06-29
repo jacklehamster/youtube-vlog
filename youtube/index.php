@@ -1,5 +1,5 @@
 <?php
-require_once "vendor/autoload.php";
+require_once "../vendor/autoload.php";
 
 $url = "https://www.googleapis.com/youtube/v3/playlistItems";
 $playlist_id = $_REQUEST['playlist'] ?? "PLV681LxQUUTPwZB_FzbCR3Q-bW0uzc3Pf";
